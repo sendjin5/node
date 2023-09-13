@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Sample</title>
+</head>
+<body>
+    <ul>
+        <li><a href="/">메인</a></li>
+        <li><a href="/board/boardlist">목록</a></li>
+        <li><a href="/board/addboard">추가</a></li>
+    </ul>
+    <form action="/board/addboardPro" method="post">
+        <p><input type="hidden" name="bno" placeholder="bno hidden"></p>
+        <p><input type="text" name="title" placeholder="title input"></p>
+        <p><textarea type="text" name="content" cols="5" rows="10" placeholder="content input"></textarea></p>
+        <p><input type="submit"></p>
+    </form>
+</body>
+</html>
